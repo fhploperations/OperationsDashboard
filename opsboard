@@ -1,11 +1,1054 @@
-<html>
-<b>FHPL Preauth Dashboard></b>
+<!DOCTYPE html>
+<html lang="en">
+<div class="w3-bar w3-black", color=black>
+  <div class="w3-bar-item" style="width:21%; text-decoration:underline; border-bottom: 1px solid #000;">A Product of RAJAN BUSINESS IDEAS</div>
+  <!--<div class="w3-bar-item">==============================</div> --->
+  <div class="w3-bar-item" style="text-align: right; width:99%";><br>Your future is now in your hands. Let's begin.<br><br><br></div>
+</div>
+  
+  <head>
+<title>Rajan Business Report Services</title>
+<link rel="icon" href="http://rajanbusinessideas.com/img/logo.png" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+	#navi-bar1 {
+		background-color:#33475b; 
+		height: 60px;
+		width: 7%;
+		text-align: right;
+		font-weight: bold;
+		color : #ffffff;
+		float : right;
+		position : relative;
+	    }	
+	
+	#navi-bar {
+		background-color:#33475b; 
+		height: 105px;
+		width: 99%;
+		text-align: right;
+		font-weight: bold;
+		color: #ffffff;
+	    }	
+	    
+
+	.naviselectbox1 {
+		cursor: pointer; 
+		transition-duration: 0.2s; 
+		float: right; 
+		<!-- background-color:#33475b; 	 --->
+		color:#FFFFFF; 
+		font-weight: bold; 
+		text-align: center;
+		<!-- padding: 16px 32px; ---> 
+		height: 60px;
+		width: 300;
+		margin: 0px 0px 0px 0px;
 
 
-    <iframe
-        width="960"
-        height="720"
-        src="https://ap-south-1.quicksight.aws.amazon.com/sn/embed/share/accounts/030613049123/dashboards/434ddd45-f889-44ac-8128-2af81f47d168?directory_alias=rajan25200">
-    </iframe>
-    
+	    }	
+	
+	.naviselectbox {
+		<!-- background-color: #0000FF;  --->
+		color: #FFFFFF; 
+		<!-- border: 2px solid #4CAF50; --->
+		height: 60px;
+		width: 300;
+		margin: 0px 0px 0px 0px;
+	    }	
+	
+    	.naviselectbox1:hover  {
+		background-color: #FA8181;
+		color: white;
+		height: 60px;
+		width: 300;
+		margin: 0px 0px 0px 0px;
+		}
+	
+	
+	    
+</style>
+</head>
+
+ <!-------------------------------navi bar start-----------------------------------------------> 
+  <div id="navi-bar"> 
+    <br> <img align="left" src="http://rajanbusinessideas.com/img/logo.png" alt="Google" height="65" width="154" data-atf="1" data-frt="0" style="background-color:#FEFCFF;text-align:left;margin: 1px 1px 1px 7px";> 
+	  <B height="40" width="184" data-atf="1" data-frt="0" style="float: left; text-align:left; font-size: 35px; margin: 0px 0px 1px 10px; FONT color=#E7F4F3";>Rajan Business Report Services</B>
+     &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;
+    	  <div class="naviselectbox naviselectbox1" style="width: 7%; text-align: center"; ><a href="https://main.dl8hq54tsw4ry.amplifyapp.com/" style="text-decoration: none";><FONT color="#ffffff";><FONT color="#ffffff";>  <br>Contact Us </FONT color="#ffffff";></a> </div> &ensp; &ensp; &ensp; &ensp; 
+	  <div class="naviselectbox naviselectbox1" style="width: 11%; text-align: center";><a href="https://main.dl8hq54tsw4ry.amplifyapp.com/" style="text-decoration: none";><FONT color="#ffffff";> <u> <br>Get your Report  </u></FONT color="#ffffff";></a> </div> &ensp; &ensp; &ensp; &ensp;
+	  <div class="naviselectbox naviselectbox1" style="width: 7%; text-align: center";><a href="https://main.dl8hq54tsw4ry.amplifyapp.com/" style="text-decoration: none";><FONT color="#ffffff";>  <br> &ensp; About Us &ensp;  </FONT color="#ffffff";></a></div> &ensp; &ensp; &ensp; &ensp;
+	  <div class="naviselectbox naviselectbox1" style="width: 7%; text-align: center";><a href="https://main.dl8hq54tsw4ry.amplifyapp.com/" style="text-decoration: none; margin: 0px 15px 0px 0px";><FONT color="#ffffff";>  <br> &ensp; Home&ensp;</FONT color="#ffffff";></div></a> &ensp; &ensp; &ensp; &ensp;
+	  	 
+	  <br><br><div height="60" width="184" data-atf="1" data-frt="0" style="float: left; text-align:left; font-size: 12px; margin: 0px 0px 1px 10px";>A product of Rajan Business Ideas</div><br><br><br><br><br><br><br><br><br><br><br><br>
+	  
+
+  </div></FONT>
+ <!-------------------------------navi bar end----------------------------------------------->
+  
+ <!-------------------------------sign in window start-----------------------------------------------> 
+	<div style="width:99%;">
+	  <br><par float: left; style="text-align: right";> Please Sign in (or) Sign Up to use the Business Report services Tools below.</par>
+	  <div class="Login"  style="float: right"; width=50px; padding: 15px; style="text-align: right";>
+
+	    <!-- <par style="width: 20vw; position : relative;";> Login with Mobile Number : </par> --->
+	    <select aria-hidden="true" style="width=20vw"; tabindex="0" title="Search in">
+		<option selected="selected" value="search-alias=aps">(+91) </option>
+		<option value="search-alias=South-Africa">(+27) </option>
+	    </select>
+	    <input style="width: 10vw; position relative;"; aria-label="Enter your phone number" type="tel" name="phoneNumber" id="mobile" class="_cf _cg _ch _a _j _ci _ca _cb _cj _h _ck _cl _cl _cm  _cn _co" value="" aria-describedby="error-caption-mobile form-title input-label-mobile" aria-required="true" placeholder="Mobile Number">
+	    <button style="width: 10vw; position relative;";class="dropbtn" style="background-color:#CCCCFF;height: 75px; width: 284";> Login with OTP </button>
+	    <br><br>
+
+	   </div>
+  	</div>
+ <!-------------------------------sign in window end-----------------------------------------------> 
+  
+<!-------------------------------main 3 compartments window end-----------------------------------------------> 
+<head>
+    <meta charset="utf-8">
+  
+    <style>
+        body,
+        html {
+            height: 100%;
+            width: 100%;
+          <!-- overflow: hidden; ---> 
+        }
+
+	    	
+	    
+        li{
+            	cursor: pointer;
+		margin: 15px 0;
+        }
+	.center {
+		  align-items: center;
+		  <!-- border: 3px solid #73AD21;  --->
+		  vertical-align: middle;
+		}
+	    
+      	.dropbtn {
+		cursor: pointer; 
+		transition-duration: 0.2s; 
+		float: right; 
+		background-color:#0000FF; 	
+		color:#FFFFFF; 
+		font-weight: bold; 
+		text-align: center;
+		<!-- padding: 16px 32px; ---> 
+		height: 40px;
+		width: 200;
+		margin: 0px 15px 0px 0px;
+	    }
+ 	.dropbtn1 {
+		background-color: #0000FF; 
+		color: #FFFFFF; 
+		border: 2px solid #4CAF50;
+		height: 40px;
+		width: 200;
+		margin: 0px 15px 0px 0px;
+	}
+    	.dropbtn1:hover  {
+		background-color: #4CAF50;
+		color: white;
+		height: 40px;
+		width: 200;
+		margin: 0px 15px 0px 0px;
+		}
+    	.button {
+	  background-color: #4CAF50; /* Green */
+	  border: none;
+	  color: white;
+	  padding: 16px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  margin: 4px 2px;
+	  transition-duration: 0.4s;
+	  cursor: pointer;
+	}
+	    
+    	.button1 {
+	  background-color: white; 
+	  color: black; 
+	  border: 2px solid #4CAF50;
+	}
+        .box-wrapper {
+            height: 180vh;
+            width: 98vw;
+            display: flex;
+            flex-direction: column;
+           position: relative;
+        }
+  
+        #box1 {
+            padding: 10px;
+            height: 25px;
+            line-height: 30px;
+            border: solid 1px green
+        }
+  
+        #box2 {
+            height: 15px;
+            padding: 8px;
+            border: solid 1px blue
+        }
+  
+        #box3 {
+            padding: 10px;
+            flex-grow: 0.25;
+            display: flex;
+            flex-direction: row;
+            border: solid 1px green
+        }
+  
+        #box4 {
+            padding: 3px; 
+            flex-grow: 0.25;
+            display: flex;
+            flex-direction: row;
+            border: solid 1px black;
+        }
+  
+      
+        #box5 {
+            padding: 3px;
+            flex-grow: 0.25;
+            display: flex;
+            flex-direction: row;
+            border: solid 1px black;
+        }
+
+         #box6 {
+            padding: 3px;
+            flex-grow: 0.25;
+            display: flex;
+            flex-direction: row;
+            border: solid 1px black;
+        }
+
+        .middle-column {
+            padding: 1px;
+            flex-grow: 4;
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+  
+        }
+  
+        .middle-column div {
+            flex-grow: 1;
+            margin: 0 8px;
+           <!--  border: solid 1px red;  --->
+        }
+  
+        .middle-column div+div {
+            margin-top: 8px
+        }
+  
+        .LeftandRight-column {
+            flex-grow: 0.25;
+            display: flex;
+            flex-direction: column;
+            width: 20%;
+  
+        }
+  
+        .LeftandRight-column div {
+            flex-grow: 0.25;
+            margin: 0 8px;
+          <!--  border: solid 1px red; --->
+        }
+  
+        .LeftandRight-column div+div {
+            margin-top: 8px
+        }
+      
+        #box8 {
+             padding: 3px; 
+            flex-grow: 0.25;
+            display: flex;
+            flex-direction: row;
+            border: solid 1px black;                      
+        }
+
+         #box9 {
+            padding: 3px;
+            flex-grow: 0.25;
+            display: flex;
+            flex-direction: row;
+            border: solid 1px black;
+        }
+
+         #box10 {
+            padding: 3px;
+            flex-grow: 0.25;
+            display: flex;
+            flex-direction: row;
+            border: solid 1px black;
+        }
+          #actualcontentcreated {
+            padding: 3px;
+            flex-grow: 0.25;
+            display: flex;
+            flex-direction: row;
+            border: solid 1px black;
+            text-align: left;
+        }
+    </style>
+</head>
+  
+<body>
+    <div class="box-wrapper">
+        <div id="box1" style="text-align: center; background-color:#07F0DE";>
+            Use the Promo code "RBideas 25" to get an instant 25% discount during purchase. valid till 31st October 2022.
+        </div>
+  
+        <div id="box2">
+            GeeksforGeeks 2
+        </div>
+  
+        <div id="box3" style="position: relative;">
+          <div class="LeftandRight-column">
+                <div id="box4" >                                        
+                             <div class="Industry-wrap">
+                                  <p><strong> Select industry : </strong></p>
+                                  <form>
+                                    	<label><input type="checkbox" id="myCheck" onclick="myFunction()" name="fl-colour" value="Food and Beverages" /> Food and Beverages</label><br>
+                                    	<label><input type="checkbox" id="myCheck1" onclick="myFunction()" name="fl-colour" value="ITES" /> ITES </label><br> 
+                                    	<label><input type="checkbox" id="myCheck2" onclick="myFunction()" name="fl-colour" value="Manufacturing" /> Manufacturing </label><br>   
+                                    	<label><input type="checkbox" id="myCheck3" onclick="myFunction()" name="fl-colour" value="Digital Marketing" /> Digital Marketing </label><br>   
+				    	<label><input type="checkbox" id="myCheck4" onclick="myFunction()"> Management Consulting </label><br>
+                                  </form>
+                            </div>          
+                </div>
+                <div id="box5" >
+                          <div class="Industry-wrap">                  
+                              <p><strong> Select Country : </strong></p>
+                               <select aria-hidden="true" style="width=40px"; tabindex="1" title="Search Country" name="critical" onchange="getText(this)">
+                                  <option selected="selected" value="search-alias=FnB">India </option>
+                                  <option value="search-alias=ITES">South Africa </option>
+                              </select>
+                          </div>
+                </div>
+                <div id="box6" >
+                          <div class="Industry-wrap">
+                              <p><strong> Select City (where Business will be setup) : </strong></p>
+                              <form>
+                                <label><input type="checkbox" id="Hyderabadbussetup" onclick="mysetupcityFunction()" name="fl-colour" value="Hyderabad" /> Hyderabad</label><br>
+                                <label><input type="checkbox" id="Delhibussetup" onclick="mysetupcityFunction()" name="fl-colour" value="Delhi" /> Delhi </label><br> 
+                                <label><input type="checkbox" id="Mumbaibussetup" onclick="mysetupcityFunction()" name="fl-colour" value="Mumbai" id="Mumbai" /> Mumbai </label><br>   
+                                <label><input type="checkbox" id="kolkatabussetup" onclick="mysetupcityFunction()" name="fl-colour" value="kolkata" id="kolkata" /> Kolkata </label><br>   
+                              </form>
+                           </div>
+                </div>
+
+          </div>
+            <div class="middle-column">
+                <div id="box7" style="background-color:#FFFFFF;height: 1000px;text-align: center";>
+		
+
+                     <!-------------------------------<div style="float: right";>     .</div> ----------------------------------------------->
+			<br>	
+                    <button   width="400px;" class="dropbtn dropbtn1"><div class="center">DOWNLOAD FULL REPORT</div></button> &ensp; &ensp; &ensp; &ensp;
+			<br>
+                    Please select the options on Left and Right to prepare your Business Report Below
+			<p style="width:100%";><br>==========================================================================================</p>
+			    
+                  <!-------------------------------text based on content -- start-----------------------------------------------> 
+
+                    <div class="actualcontentcreated" style="position: relative";>
+                      
+				
+			    <!-------------------------------Java script based text from Industry checkbox selection -- start----------------------------------------------->
+			    <div>
+			    	<strong><input id="FinalReportprice" style="float: right; font-size: 16px; background-color: #B4A9CF; color: #000000; text-align: center; cursor: pointer;" type="Number" name="username" value="0" readonly></strong><strong></strong></input>    <div  style="float: right; margin: 3px 7px;  background-color: #FFFFFF";>Current Report's <b>Total Price</b> excluding GST (INR) :</div>
+				    <br><br><p> </p>
+			    <br>
+			    
+			    <b style="background-color: #B4A9CF";><strong><ul>Selected Filters</ul></strong></b>
+			    
+			    <br>    
+			    
+
+				<b style="color:black; float: left; font-family:Calibri; font-size:small; font-weight:bold; margin: 3px";>Industries Selected : </b>
+				    <div id="text" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";>Food and Beverages;</div>
+				    <div id="text1" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";>ITES;</div>
+				    <div id="text2" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";>Manufacturing;</div>
+				    <div id="text3" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";>Digital Marketing;</div>
+				    <div id="text4" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";>Management Consulting;</div>
+			    <br><br>
+			    <!-------------------------------Country based  content -- start-----------------------------------------------> 
+                            
+			    <b style="color:black; float: left; font-family:Calibri; font-size:small; font-weight:bold; margin: 3px";>Country : </b>
+                            <script language="JavaScript">
+			    
+                            var DivTxt = new Array()
+                            DivTxt[0] = "India (default)"
+                            DivTxt[1] = "South Africa"
+                            DivTxt[2] = "Priority Normal: The selection is Normal"
+                            DivTxt[3] = "Priority High: The selection is High"
+                            DivTxt[3] = "Priority Critical: The selection is Critical"
+
+                            function getText(slction){
+                            txtSelected = slction.selectedIndex;
+                            document.getElementById('textDiv').innerHTML = DivTxt[txtSelected];
+                            }
+                            </script>
+                            <div id="textDiv" style="display:block; color:black; float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";>India (default)</div>
+                      
+                           <!-------------------------------Country based  content -- end----------------------------------------------->
+				    
+				    <!-------------------------------Business Setup City based  content -- start----------------------------------------------->
+				    <br><br>
+					<b style="color:black; float: left; font-family:Calibri; font-size:small; font-weight:bold; margin: 3px";>Business Setup Location (City) : </b>
+				    <div id="bussetup1" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";>Hyderabad;</div>
+				    <div id="bussetup2" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";>Delhi/New Delhi;</div>
+				    <div id="bussetup3" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";>Mumbai;</div>
+				    <div id="bussetup4" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";>kolkata;</div>
+				    <!-------------------------------Business Setup City based  content -- end----------------------------------------------->
+				    
+				    <!-------------------------------Competitor Country based  content -- start----------------------------------------------->
+				    <br><br>
+					<b style="color:black; float: left; font-family:Calibri; font-size:small; font-weight:bold; margin: 3px";>List of Competitors from the Regions : </b>
+				    <div id="textComp1" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";>India wide;</div>
+				    <div id="textComp2" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";>Andhra Pradesh;</div>
+				    <div id="textComp3" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";>Telangana;</div>
+				    <div id="textComp4" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";>Karnataka;</div>
+				    <div id="textComp5" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";>West Bengal;</div>
+				    <div id="textComp61" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";>Delhi;</div>
+				    <div id="textComp7" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";>Maharashtra;</div>
+				    <!-------------------------------Competitor Country based  content -- end----------------------------------------------->
+				    
+				    <!-------------------------------Market Segment Age wise Country based  content -- start----------------------------------------------->
+				    <br><br>
+					<b style="color:black; float: left; font-family:Calibri; font-size:small; font-weight:bold; margin: 3px";>Selected Market Segments(Age wise) : </b>
+				    <div id="textMark1" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";> less than 5;</div>
+				    <div id="textMark2" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";> 5 to 15;</div>
+				    <div id="textMark3" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";> 15 to 25;</div>
+				    <div id="textMark4" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";> 25 to 40;</div>
+				    <div id="textMark5" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";> All Age groups;</div>
+				    <!-------------------------------Market Segment Age wise based  content -- end----------------------------------------------->
+					
+				    <!-------------------------------Existing industry's Customer Pain Points   content -- start----------------------------------------------->
+				    <br><br>
+					<b style="color:black; float: left; font-family:Calibri; font-size:small; font-weight:bold; margin: 3px";>Existing industry's Customer Pain Points : </b>
+				    <div id="textpainpoints1" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";> Availability of Product;</div>
+				    <div id="textpainpoints2" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";> Price of Product;</div>
+				    <div id="textpainpoints3" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";> Quality of Products in Market;</div>
+				    <div id="textpainpoints4" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";> Supply of Product not Adequate;</div>
+				    <!-------------------------------Existing industry's Customer Pain Points  content -- end----------------------------------------------->
+
+					<script>
+						var aaa=0;
+						var aab=0;
+						var aac=0;
+						var aad=0;
+						var aae=0;
+						var aaf=0;
+						var aba=0;
+						var abb=0;
+						var abc=0;
+						var abd=0;
+						var aca=0;
+						var acb=0;
+						var acc=0;
+						var acd=0;
+						var ace=0;
+						var acf=0;
+						var acg=0;
+						var ada=0;
+						var adb=0;
+						var adc=0;
+						var add=0;
+						var ade=0;
+						var aea=0;
+						var aeb=0;
+						var aec=0;
+						var aed=0;
+						var filter1=0;
+						var filter2=0;
+						var filter3=0;
+						var filter4=0;
+						var filter5=0;
+						var filter6=0;
+						var costofsegment1=400;
+						var costofsegment2=500;
+						var costofsegment3=572;
+						var costofsegment4=572;
+						var costofsegment5=500;
+						<!-------------------------------Industry selection based list display -- start----------------------------------------------->
+					function myFunction() {
+					  var checkBox = document.getElementById("myCheck");
+					  var text = document.getElementById("text");
+					  if (checkBox.checked == true){
+					    text.style.display = "block";
+						  if (aaa == 0){ filter1 = filter1 + costofsegment1; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+						  aaa=1;
+					  } else {
+					     text.style.display = "none";
+						  if (aaa == 1){ filter1 = filter1 - costofsegment1; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+						  aaa = 0;
+					  }
+
+					
+					var checkBox = document.getElementById("myCheck1");
+					  var text1 = document.getElementById("text1");
+					  if (checkBox.checked == true){
+					    text1.style.display = "block";
+						  if (aab == 0){ filter1 = filter1 + costofsegment1; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+						  aab=1;
+					  } else {
+					     text1.style.display = "none";
+						  if (aab == 1){  filter1 = filter1 - costofsegment1; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+						  aab = 0;
+					  }
+						
+					var checkBox = document.getElementById("myCheck2");
+					  var text2 = document.getElementById("text2");
+					  if (checkBox.checked == true){
+					    text2.style.display = "block";
+						  if (aac == 0){ filter1 = filter1 + costofsegment1; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+						  aac=1;
+					  } else {
+					     text2.style.display = "none";
+						  if (aac == 1){  filter1 = filter1 - costofsegment1; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+						  aac = 0;
+					  }
+						
+					var checkBox = document.getElementById("myCheck3");
+					  var text3 = document.getElementById("text3");
+					  if (checkBox.checked == true){
+					    text3.style.display = "block";
+						  if (aad == 0){ filter1 = filter1 + costofsegment1; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+						  aad=1;
+					  } else {
+					     text3.style.display = "none";
+						  if (aad == 1){  filter1 = filter1 - costofsegment1; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+						  aad = 0;
+					  }
+						
+					var checkBox = document.getElementById("myCheck4");
+					  var text4 = document.getElementById("text4");
+					  if (checkBox.checked == true){
+					    text4.style.display = "block";
+						  if (aae == 0){ filter1 = filter1 + costofsegment1; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+						  aae=1;
+					  } else {
+					     text4.style.display = "none";
+						  if (aae == 1){  filter1 = filter1 - costofsegment1; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+						  aae = 0;
+					  }
+						
+						
+					}
+						<!-------------------------------Industry selection based list display -- end----------------------------------------------->						
+
+						<!-------------------------------Business Setup City selection based list display -- start----------------------------------------------->
+					function mysetupcityFunction() {
+					  var checkBox = document.getElementById("Hyderabadbussetup");
+					  var bussetup1 = document.getElementById("bussetup1");
+					  if (checkBox.checked == true){
+					    			bussetup1.style.display = "block";
+								  if (aba == 0){ filter2 = filter2 + costofsegment2; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  aba=1;
+								  	} else {
+									     	bussetup1.style.display = "none";
+						  				if (aba == 1){  filter2 = filter2 - costofsegment2; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										aba=0;
+									  	}
+
+					var checkBox = document.getElementById("Delhibussetup");
+					  var bussetup2 = document.getElementById("bussetup2");
+					  if (checkBox.checked == true){
+					    			bussetup2.style.display = "block";
+								  if (abb == 0){ filter2 = filter2 + costofsegment2; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  abb=1;
+								  	} else {
+									     	bussetup2.style.display = "none";
+						  				if (abb == 1){  filter2 = filter2 - costofsegment2; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										abb=0;
+									  	}
+						
+					var checkBox = document.getElementById("Mumbaibussetup");
+					  var bussetup3 = document.getElementById("bussetup3");
+					  if (checkBox.checked == true){
+					    			bussetup3.style.display = "block";
+								  if (abc == 0){ filter2 = filter2 + costofsegment2; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  abc=1;
+								  	} else {
+									     	bussetup3.style.display = "none";
+						  				if (abc == 1){  filter2 = filter2 - costofsegment2; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										abc=0;
+									  	}
+						
+					var checkBox = document.getElementById("kolkatabussetup");
+					  var bussetup4 = document.getElementById("bussetup4");
+					  if (checkBox.checked == true){
+					    			bussetup4.style.display = "block";
+								  if (abd == 0){ filter2 = filter2 + costofsegment2; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  abd=1;
+								  	} else {
+									     	bussetup4.style.display = "none";
+						  				if (abd == 1){  filter2 = filter2 - costofsegment2; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										abd=0;
+									  	}
+					}
+					<!-------------------------------Business Setup City selection based list display -- end-------------------------------------------->
+						
+						<!-------------------------------Competitor selection based list display -- start----------------------------------------------->
+						
+					function myCompetitorFunction() {
+					  var checkBox = document.getElementById("India wide");
+					  var textComp1 = document.getElementById("textComp1");
+					  if (checkBox.checked == true){
+					    			textComp1.style.display = "block";
+								  if (aca == 0){ filter3 = filter3 + 4000; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  aca=1;
+								  	} else {
+									     	textComp1.style.display = "none";
+						  				if (aca == 1){  filter3 = filter3 - 4000; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										aca=0;
+									  	}
+
+					var checkBox = document.getElementById("Andhra Pradesh");
+					  var textComp2 = document.getElementById("textComp2");
+					  if (checkBox.checked == true){
+					    			textComp2.style.display = "block";
+								  if (acb == 0){ filter3 = filter3 + costofsegment3; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  acb=1;
+								  	} else {
+									     	textComp2.style.display = "none";
+						  				if (acb == 1){  filter3 = filter3 - costofsegment3; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										acb=0;
+									  	}
+							
+					var checkBox = document.getElementById("Telangana");
+					  var textComp3 = document.getElementById("textComp3");
+					  if (checkBox.checked == true){
+					    			textComp3.style.display = "block";
+								  if (acc == 0){ filter3 = filter3 + costofsegment3; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  acc=1;
+								  	} else {
+									     	textComp3.style.display = "none";
+						  				if (acc == 1){  filter3 = filter3 - costofsegment3; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										acc=0;
+									  	}	
+						
+					var checkBox = document.getElementById("Karnataka");
+					  var textComp4 = document.getElementById("textComp4");
+					  if (checkBox.checked == true){
+					    			textComp4.style.display = "block";
+								  if (acd == 0){ filter3 = filter3 + costofsegment3; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  acd=1;
+								  	} else {
+									     	textComp4.style.display = "none";
+						  				if (acd == 1){  filter3 = filter3 - costofsegment3; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										acd=0;
+									  	}	
+						
+					var checkBox = document.getElementById("West Bengal");
+					  var textComp5 = document.getElementById("textComp5");
+					  if (checkBox.checked == true){
+					    			textComp5.style.display = "block";
+								  if (ace == 0){ filter3 = filter3 + costofsegment3; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  ace=1;
+								  	} else {
+									     	textComp5.style.display = "none";
+						  				if (ace == 1){  filter3 = filter3 - costofsegment3; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										ace=0;
+									  	}	
+						
+					var checkBox = document.getElementById("Delhi1");
+					  var textComp61 = document.getElementById("textComp61");
+					  if (checkBox.checked == true){
+					    			textComp61.style.display = "block";
+								  if (acf == 0){ filter3 = filter3 + costofsegment3; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  acf=1;
+								  	} else {
+									     	textComp61.style.display = "none";
+						  				if (acf == 1){  filter3 = filter3 - costofsegment3; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										acf=0;
+									  	}	
+						
+					var checkBox = document.getElementById("Maharashtra");
+					  var textComp7 = document.getElementById("textComp7");
+					  if (checkBox.checked == true){
+					    			textComp7.style.display = "block";
+								  if (acg == 0){ filter3 = filter3 + costofsegment3; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  acg=1;
+								  	} else {
+									     	textComp6.style.display = "none";
+						  				if (acg == 1){  filter3 = filter3 - costofsegment3; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										acg=0;
+									  	}	
+						
+					}
+						
+						<!-------------------------------Competitor selection based list display -- end----------------------------------------------->
+						
+						<!-------------------------------Market Segent Age wise selection based list display -- start----------------------------------------------->
+						
+					function myMarketsegmentFunction() {					
+					var checkBox = document.getElementById("less_than_5");
+					  var textMark1 = document.getElementById("textMark1");
+					  if (checkBox.checked == true){
+					    			textMark1.style.display = "block";
+								  if (ada == 0){ filter4 = filter4 + costofsegment4; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  ada=1;
+								  	} else {
+									     	textMark1.style.display = "none";
+						  				if (ada == 1){  filter4 = filter4 - costofsegment4; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										ada=0;
+									  	}	
+						
+					var checkBox = document.getElementById("5 to 15");
+					  var textMark2 = document.getElementById("textMark2");
+					  if (checkBox.checked == true){
+					    			textMark2.style.display = "block";
+								  if (adb == 0){ filter4 = filter4 + costofsegment4; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  adb=1;
+								  	} else {
+									     	textMark2.style.display = "none";
+						  				if (adb == 1){  filter4 = filter4 - costofsegment4; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										adb=0;
+									  	}	
+						
+					var checkBox = document.getElementById("15 to 25");
+					  var textMark3 = document.getElementById("textMark3");
+					  if (checkBox.checked == true){
+					    			textMark3.style.display = "block";
+								  if (adc == 0){ filter4 = filter4 + costofsegment4; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  adc=1;
+								  	} else {
+									     	textMark3.style.display = "none";
+						  				if (adc == 1){  filter4 = filter4 - costofsegment4; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										adc=0;
+									  	}
+						
+					var checkBox = document.getElementById("25 to 40");
+					  var textMark4 = document.getElementById("textMark4");
+					  if (checkBox.checked == true){
+					    			textMark4.style.display = "block";
+								  if (add == 0){ filter4 = filter4 + costofsegment4; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  add=1;
+								  	} else {
+									     	textMark4.style.display = "none";
+						  				if (add == 1){  filter4 = filter4 - costofsegment4; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										add=0;
+									  	}
+												
+					var checkBox = document.getElementById("All of the Above");
+					  var textMark5 = document.getElementById("textMark5");
+					  if (checkBox.checked == true){
+					    			textMark5.style.display = "block";
+								  if (ade == 0){ filter4 = filter4 + costofsegment4; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  ade=1;
+								  	} else {
+									     	textMark5.style.display = "none";
+						  				if (ade == 1){  filter4 = filter4 - costofsegment4; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										ade=0;
+									  	}
+																	
+					}						
+						
+						<!-------------------------------Market Segent Age wise selection based list display -- end----------------------------------------------->						
+						
+
+						<!-------------------------------Existing industry's Customer Pain Points  selection based list display -- start----------------------------------------------->
+						
+					function myPainpointsFunction() {	
+					var checkBox = document.getElementById("Availability_of_Product");
+					  var textpainpoints1 = document.getElementById("textpainpoints1");
+					  if (checkBox.checked == true){
+					    			textpainpoints1.style.display = "block";
+								  if (aea == 0){ filter5 = filter5 + costofsegment5; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  aea=1;
+								  	} else {
+									     	textpainpoints1.style.display = "none";
+						  				if (aea == 1){  filter5 = filter5 - costofsegment5; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										aea=0;
+									  	}
+						
+					var checkBox = document.getElementById("Price_of_Product");
+					  var textpainpoints2 = document.getElementById("textpainpoints2");
+					  if (checkBox.checked == true){
+					    			textpainpoints2.style.display = "block";
+								  if (aeb == 0){ filter5 = filter5 + costofsegment5; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  aeb=1;
+								  	} else {
+									     	textpainpoints2.style.display = "none";
+						  				if (aeb == 1){  filter5 = filter5 - costofsegment5; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										aeb=0;
+									  	}
+						
+					var checkBox = document.getElementById("Quality_of_Products_in_Market");
+					  var textpainpoints3 = document.getElementById("textpainpoints3");
+					  if (checkBox.checked == true){
+					    			textpainpoints3.style.display = "block";
+								  if (aec == 0){ filter5 = filter5 + costofsegment5; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  aec=1;
+								  	} else {
+									     	textpainpoints3.style.display = "none";
+						  				if (aec == 1){  filter5 = filter5 - costofsegment5; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										aec=0;
+									  	}	
+						
+					var checkBox = document.getElementById("Supply_of_Product_not_Adequate");
+					  var textpainpoints4 = document.getElementById("textpainpoints4");
+					  if (checkBox.checked == true){
+					    			textpainpoints4.style.display = "block";
+								  if (aed == 0){ filter5 = filter5 + costofsegment5; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6; }
+								  aed=1;
+								  	} else {
+									     	textpainpoints4.style.display = "none";
+						  				if (aed == 1){  filter5 = filter5 - costofsegment5; document.getElementById("FinalReportprice").value = filter1 + filter2 + filter3 + filter4 + filter5 + filter6;}
+										aed=0;
+									  	}							
+																	
+					}												
+						
+						<!-------------------------------Existing industry's Customer Pain Points  selection based list display -- start----------------------------------------------->						
+						
+					</script>
+			    		
+			    		<script>
+						<!--------------------- ---------------->
+						
+					</script>
+			    
+			    
+			    </div>
+                      	     <!-------------------------------Java script based text from checkbox selection -- start----------------------------------------------->
+                    </div>
+                    <!-------------------------------text based on content -- end-----------------------------------------------> 
+			<br><br><br><button onclick="GenerateReportFunction()" width="400px;" class="dropbtn dropbtn1"style="float: left; height: 40px; width: 200; margin: 0px 0px 0px 200px";>Generate/Preview Report on above filters</button> &ensp; &ensp; &ensp; &ensp;
+			
+			    <!-------------------------------Filter based Final Report -- start -----------------------------------------------> 
+			    
+			    
+				    <!-------------------------------Existing industry's Customer Pain Points   content -- start----------------------------------------------->
+				    <br><br><br><br><br><br>			
+				    <div id="textpainpoints111" style="display:none; width: 100%; color:black;  float: left; text-align: center; font-family:Calibri; font-size:small; margin: 3px 3px";> <Strong class="actualcontentcreated" >Business Report No. 12345 </Strong></div><br><br>
+			    	    <div id="textpainpoints11" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";><strong>Availability of Products :</strong> Based on the filters selected by you, the details of the Market condition based on the Availability of Product in the market is as follows. <U>click here for more</U></div><br><br>
+				    <div id="textpainpoints12" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";> Price of Product;</div><br><br>
+				    <div id="textpainpoints13" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";> Quality of Products in Market;</div><br><br>
+				    <div id="textpainpoints14" style="display:none; color:black;  float: left; text-align: left; font-family:Calibri; font-size:small; margin: 3px 3px";> Supply of Product not Adequate;</div><br><br>
+				    <!-------------------------------Existing industry's Customer Pain Points  content -- end----------------------------------------------->
+			    
+			    
+			    		<script>
+						<!--------------------- ---------------->
+					function GenerateReportFunction() {	
+					var textpainpoints111 = document.getElementById("textpainpoints111");
+					textpainpoints111.style.display = "block";
+						
+					var checkBox = document.getElementById("Availability_of_Product");
+					  var textpainpoints11 = document.getElementById("textpainpoints11");
+					  if (checkBox.checked == true){
+					    			textpainpoints11.style.display = "block";
+								  	} else {
+									     	textpainpoints11.style.display = "none";
+									  	}
+						
+					var checkBox = document.getElementById("Price_of_Product");
+					  var textpainpoints12 = document.getElementById("textpainpoints12");
+					  if (checkBox.checked == true){
+					    			textpainpoints12.style.display = "block";
+								  	} else {
+									     	textpainpoints12.style.display = "none";
+									  	}
+						
+					var checkBox = document.getElementById("Quality_of_Products_in_Market");
+					  var textpainpoints13 = document.getElementById("textpainpoints13");
+					  if (checkBox.checked == true){
+					    			textpainpoints13.style.display = "block";
+								  	} else {
+									     	textpainpoints13.style.display = "none";
+									  	}	
+						
+					var checkBox = document.getElementById("Supply_of_Product_not_Adequate");
+					  var textpainpoints14 = document.getElementById("textpainpoints14");
+					  if (checkBox.checked == true){
+					    			textpainpoints14.style.display = "block";
+								  	} else {
+									     	textpainpoints14.style.display = "none";
+									  	}							
+																	
+					}		
+						
+					</script>			    
+			    
+			    <!-------------------------------Filter based Final Report -- start -----------------------------------------------> 
+			    
+                </div>
+            </div>
+            <div class="LeftandRight-column">
+                    <div id="box8" >
+                          <div class="Industry-wrap">                      
+                                  <p><strong>List of Competitors : </strong></p> 
+                                  <form>
+                                    <label><input type="checkbox"  id="India wide" onclick="myCompetitorFunction()" name="fl-colour" value="India wide" /> India wide </label><br>
+                                    <label><input type="checkbox"  id="Andhra Pradesh" onclick="myCompetitorFunction()" name="fl-colour" value="Andhra Pradesh" /> Andhra Pradesh </label><br> 
+                                    <label><input type="checkbox"  id="Telangana" onclick="myCompetitorFunction()" name="fl-colour" value="Telangana" /> Telangana </label><br>                     
+                                    <label><input type="checkbox"  id="Karnataka" onclick="myCompetitorFunction()" name="fl-colour" value="Karnataka" /> Karnataka </label><br>
+                                    <label><input type="checkbox"  id="West Bengal" onclick="myCompetitorFunction()" name="fl-colour" value="West Bengal" /> West Bengal </label><br>  
+                                    <label><input type="checkbox"  id="Delhi1" onclick="myCompetitorFunction()" name="fl-colour" value="Delhi" /> Delhi </label><br>  
+                                    <label><input type="checkbox"  id="Maharashtra" onclick="myCompetitorFunction()" name="fl-colour" value="Maharashtra" /> Maharashtra </label>
+                                  </form>
+                           </div>
+                      </div>
+                      
+                    <div id="box9" >
+                          <div class="Industry-wrap">
+                                  <p><strong> Market Segment Age wise : </strong></p> 
+                                  <form>
+                                    <label><input type="checkbox"  id="less_than_5" onclick="myMarketsegmentFunction()" name="fl-colour" value="less than 5" /> less than 5 </label><br>
+                                    <label><input type="checkbox"  id="5 to 15" onclick="myMarketsegmentFunction()" name="fl-colour" value="5 to 15" /> 5 to 15 </label><br> 
+                                    <label><input type="checkbox"  id="15 to 25" onclick="myMarketsegmentFunction()" name="fl-colour" value="15 to 25" /> 15 to 25 </label><br>   
+                                    <label><input type="checkbox"  id="25 to 40" onclick="myMarketsegmentFunction()" name="fl-colour" value="25 to 40" /> 25 to 40 </label><br> 
+                                    <label><input type="checkbox"  id="All of the Above" onclick="myMarketsegmentFunction()" name="fl-colour" value="All of the Above" /> All of the Above </label><br> 
+                                  </form>
+                          </div>
+
+                    </div>
+                    <div id="box10" >
+                          <div class="Industry-wrap">                      
+                                  <p><strong> Existing industry's Customer Pain Points : </strong></p> 
+                                  <form>
+                                    <label><input type="checkbox"  id="Availability_of_Product" onclick="myPainpointsFunction()" name="fl-colour" value="Availability_of_Product" />Availability of Product</label><br>
+                                    <label><input type="checkbox"  id="Price_of_Product" onclick="myPainpointsFunction()" name="fl-colour" value="Price_of_Product" />Price of Product</label><br> 
+                                    <label><input type="checkbox"  id="Quality_of_Products_in_Market" onclick="myPainpointsFunction()" name="fl-colour" value="Quality_of_Products_in_Market" />Quality of Products in Market</label><br>   
+                                    <label><input type="checkbox"  id="Supply_of_Product_not_Adequate" onclick="myPainpointsFunction()" name="fl-colour" value="Supply_of_Product_not_Adequate" />Supply of Product not Adequate</label><br>   
+                                  </form>
+                          </div>
+                    </div>
+              </div>
+        </div>
+    </div>
+</body>
+ <!-------------------------------main 3 compartments window end-----------------------------------------------> 
+  
+
+  
+  
+   <!-------------------------------footer bar start-----------------------------------------------> 
+  
+  <div class="navFooterVerticalRow navAccessibility" style="float: left; position: relative; flex-direction: column; width: 99%">
+        <div class="navFooterLinkCol navAccessibility" style="float: left; position: relative; flex-direction: row; width: 25%;">
+          <div class="navFooterColHead"><strong><u>Get to Know Us</u></strong></div>
+        <ul>
+            <li class="nav_first">
+              <a href="https://rajanbusinessideas.com/about" class="nav_a">About Us</a>
+            </li>
+            <li>
+              <a href="https://rajanbusinessideas.com/about" class="nav_a">Careers</a>
+            </li>
+            <li>
+              <a href="https://rajanbusinessideas.com/about" class="nav_a">Press Releases</a>
+            </li>
+            <li>
+              <a href="https://rajanbusinessideas.com/about" class="nav_a">RB Ideas Cares</a>
+            </li>
+            <li>
+              <a href="https://rajanbusinessideas.com/about" class="nav_a">Gift a Smile</a>
+            </li>
+            <li class="nav_last ">
+              <a href="https://rajanbusinessideas.com/about" class="nav_a">RB Ideas Science</a>
+            </li>
+        </ul>
+      </div>
+        <div class="navFooterColSpacerInner navAccessibility"></div>
+        <div class="navFooterLinkCol navAccessibility" style="float: left; position: relative;  flex-direction: row; width: 25%;">
+          <div class="navFooterColHead"><strong><u>Connect with Us</u></strong></div>
+        <ul>
+            <li class="nav_first">
+              <a href="https://www.facebook.com/RajanBusinessIdeas" class="nav_a">Facebook</a>
+            </li>
+            <li>
+              <a href="https://rajanbusinessideas.com/" class="nav_a">Twitter</a>
+            </li>
+            <li class="nav_last ">
+              <a href="https://www.linkedin.com/in/rajan-business-ideas-24351811a/?originalSubdomain=in" class="nav_a">Linkedin</a>
+            </li>
+        </ul>
+      </div>
+        <div class="navFooterColSpacerInner navAccessibility"></div>
+        <div class="navFooterLinkCol navAccessibility" style="float: left; position: relative;  flex-direction: row; width: 25%;">
+          <div class="navFooterColHead"><strong><u>Make Money with Us</u></strong></div>
+        <ul>
+            <li class="nav_first">
+              <a href="https://rajanbusinessideas.com/businessideas" class="nav_a">Sell on our Business Ideas page</a>
+            </li>
+            <li>
+              <a href="https://rajanbusinessideas.com/fieldreports" class="nav_a">Sell on our Field Reports page</a>
+            </li>
+            <li>
+              <a href="https://rajanbusinessideas.com/" class="nav_a">RB Ideas Global Selling</a>
+            </li>
+            <li>
+              <a href="https://rajanbusinessideas.com/" class="nav_a">Become an Affiliate</a>
+            </li>
+            <li>
+              <a href="https://rajanbusinessideas.com/" class="nav_a">Fulfilment by RB Ideas</a>
+            </li>
+            <li>
+              <a href="https://rajanbusinessideas.com/" class="nav_a">Advertise Your Products</a>
+            </li>
+            <li class="nav_last ">
+              <a href="https://rajanbusinessideas.com/" class="nav_a">RB Ideas Pay</a>
+            </li>
+        </ul>
+      </div>
+        <div class="navFooterColSpacerInner navAccessibility"></div>
+             <div class="navFooterLinkCol navAccessibility" style="float: left; position: relative;  flex-direction: row; width: 25%;">
+                    <div class="navFooterColHead"><strong><u>Let Us Help You</u></strong></div>
+                    <ul>
+                        <li class="nav_first">
+                          <a href="https://rajanbusinessideas.com/" class="nav_a">COVID-19 and RB Ideas</a>
+                        </li>
+                        <li>
+                          <a href="https://rajanbusinessideas.com/" class="nav_a">Your Account</a>
+                        </li>
+                        <li>
+                          <a href="https://rajanbusinessideas.com/" class="nav_a">Returns Centre</a>
+                        </li>
+                        <li>
+                          <a href="https://rajanbusinessideas.com/" class="nav_a">100% Purchase Protection</a>
+                        </li>
+                        <li>
+                          <a href="https://rajanbusinessideas.com/" class="nav_a">RB Ideas App Download</a>
+                        </li>
+                        <li>
+                          <a href="https://rajanbusinessideas.com/" class="nav_a">RB Ideas Desktop Assistant Download</a>
+                        </li>
+                        <li class="nav_last ">
+                          <a href="https://rajanbusinessideas.com/add_contact" class="nav_a">Help</a>
+                        </li>
+                    </ul>
+          </div>
+  </div>
+  
+    <!-------------------------------footer bar end-----------------------------------------------> 
+  
+  <!===========================================================================>
+  
+<body bgcolor=”#DBF9FC">
+<link rel="icon" href="http://rajanbusinessideas.com/img/logo.png" type="image/x-icon">
+
+<!-------------------------------========================Page End Footer of registration Name of Company - start============================================-------> 
+										      
+<!-------------------------------============================Page End Footer of registration Name of Company - End==============================================------->
+
+										      
+<p>Copyright © 2022 by <a href="https://rajanbusinessideas.com/">Rajan Business Ideas Pvt. Ltd.<br>.</a></p>										      
+   
+</body>
 </html>
